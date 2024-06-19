@@ -1,6 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_flavor/ui/home_screen.dart';
+
+import 'config/app_config.dart';
 
 void main() {
+  AppConfig.create(
+    appName: "Customer",
+    baseUrl: "https://customer.com",
+    primaryColor: Colors.yellow,
+    flavor: Flavor.customer,
+  );
   runApp(const MyApp());
 }
 
@@ -13,16 +22,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: AppConfig.shared.primaryColor),
         useMaterial3: true,
       ),
-      home: const Scaffold(
-        body: Center(
-            child: Text(
-              "Customer Screen",
-              style: TextStyle(fontSize: 32.0),
-            )),
-      ),
+      home: const HomePage(),
     );
   }
 }
