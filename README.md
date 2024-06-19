@@ -19,4 +19,4 @@ Release mode when you are ready to release your app.
 References :
 
 - [Medium]([https://docs.flutter.dev/get-started/codelab](https://dwirandyh.medium.com/create-build-flavor-in-flutter-application-ios-android-fb35a81a9fac))
-- [Documentation]([https://docs.flutter.dev/cookbook](https://docs.flutter.dev/deployment/flavors))
+- [Documentation]([[https://docs.flutter.dev/cookbook](https://docs.flutter.dev/deployment/flavors)])
