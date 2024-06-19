@@ -51,11 +51,19 @@ android {
             dimension "default"
             resValue "string", "app_name", "Seller"
             applicationId "com.sample.seller"
+            manifestPlaceholders = [
+                    appIcon: "@mipmap/ic_launcher_seller",
+                    appIconRound: "@mipmap/ic_launcher_seller_round"
+            ]
         }
         customer {
             dimension "default"
             resValue "string", "app_name", "Customer"
             applicationId "com.sample.customer"
+            manifestPlaceholders = [
+                    appIcon: "@mipmap/ic_launcher",
+                    appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
     }
 
