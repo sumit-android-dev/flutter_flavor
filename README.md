@@ -16,7 +16,9 @@ Debug mode during development, when you want to use hot reload.
 Profile mode when you want to analyze performance.
 Release mode when you are ready to release your app.
 
-![Simulator Screenshot - iPhone 15 Pro Max - 2024-06-19 at 18 06 26](https://github.com/sumit-android-dev/flutter_flavor/assets/84369514/5f7aaf7a-417e-42e8-9a74-e010301cb268)
+## Screenshot
+
+<img src="https://github.com/sumit-android-dev/flutter_flavor/assets/84369514/5f7aaf7a-417e-42e8-9a74-e010301cb268" alt="Simulator Screenshot" width="300" height="600">
 
 References :
 
