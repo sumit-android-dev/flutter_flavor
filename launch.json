@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "seller",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_seller.dart",
+      "args": ["--flavor", "seller", "--target", "lib/main_seller.dart" ]
+    },
+    {
+      "name": "customer",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_customer.dart",
+      "args": ["--flavor", "customer", "--target", "lib/main_customer.dart" ]
+    }
+  ],
+  "compounds": []
+}
